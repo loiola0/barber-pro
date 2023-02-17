@@ -37,7 +37,6 @@ class UpdateUserService{
             return userUpdate;
         }
         catch(err){
-            console.log('caiu aqui')
             throw new Error('Error an update the user!');
         }
     }
